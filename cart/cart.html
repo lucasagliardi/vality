@@ -1,0 +1,13 @@
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+      <h6 class="border-bottom border-gray pb-2 mb-0">Carrinho de compras</h6>
+      <div class="media text-muted pt-3" ng-repeat="produto in produtos">
+        <img alt="64x64" class="mr-2 rounded produto-foto" src="{{produto.imagem}}" data-holder-rendered="true">
+        <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <strong class="text-gray-dark">{{produto.nome}}</strong>
+            <a  href="#/identification/{{produto.cliente.id}}">Comprar</a>
+          </div>
+          <span class="d-block">{{produto.valor | currency}}</span>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,95 @@
+{
+    "pagamento": {
+      "renda": [
+        {
+          "faixa": 1,
+          "valor": 1000,
+          "texto": "Até R$1.000,00"
+        },
+        {
+          "faixa": 2,
+          "valor": 3000,
+          "texto": "De R$1.000,00 até R$3.000,00"
+        },
+        {
+          "faixa": 3,
+          "valor": 5000,
+          "texto": "De R$3.000,00 até R$5.000,00"
+        },
+        {
+          "faixa": 4,
+          "valor": 8000,
+          "texto": "De R$5.000,00 até R$8.000,00"
+        },
+        {
+          "faixa": 5,
+          "valor": 10000,
+          "texto": "Acima de R$8.000,00"
+        }
+      ],
+      "parcelamento": [
+        {
+          "opcao": 1,
+          "total": 1414.8,
+          "parcelaVlr": 235.8,
+          "parcelaQtd": 6
+        },
+        {
+          "opcao": 2,
+          "total": 1560.78,
+          "parcelaVlr": 173.42,
+          "parcelaQtd": 9
+        },
+        {
+          "opcao": 3,
+          "total": 1498.69,
+          "parcelaVlr": 139.47,
+          "parcelaQtd": 12
+        }
+      ]
+    },
+    "produtos": [
+      {
+        "pedido": 1,
+        "nome": "Notebook Acer Aspire 5 A515-51IUX Intel Core i5 - 8GB 1TB LED 15.6'' Windows 10",
+        "valor": 1065.3,
+        "frete": 14.7,
+        "imagem":"https://i0.wp.com/www.recomendacaodenotebooks.com.br/wp-content/uploads/2017/11/Acer-A515-51-56K6-1.jpg?resize=1000%2C616&ssl=1",
+        "cliente": {
+          "id":1,
+          "nome": "João Duarte da Silva",
+          "cpf": "056.426.202-10",
+          "email": "joaoduarte@gmail.com",
+          "celular": "(11) 9938-5342"
+        }
+      },
+      {
+        "pedido": 2,
+        "nome": "MacBook Air MQD32BZ/A com Intel Core i5 Dual Core 8GB 128GB SSD 13'' Prata - Apple",
+        "valor": 4699.99,
+        "frete": 28.7,
+        "imagem":"https://i.zst.com.br/thumbs/45/1e/3e/188619213.jpg",
+        "cliente": {
+          "id":2,
+          "nome": "Lucas Severo Agliardi",
+          "cpf": "031.580.450-52",
+          "email": "lucas.agliardi@hotmail.com",
+          "celular": "(51) 98177-7114"
+        }
+      },
+      {
+        "pedido": 3,
+        "nome": "Camisa Grêmio III 17/18 s/n° - Torcedor Umbro Masculina - Marinho",
+        "valor": 170.91,
+        "frete": 11,
+        "imagem":"https://static.netshoes.com.br/produtos/camisa-gremio-iii-1718-sn-torcedor-umbro-masculina/12/D21-1606-012/D21-1606-012_zoom1.jpg?resize=544:*",
+        "cliente": {
+          "id":3,
+          "nome": "Lucas Severo Agliardi",
+          "cpf": "031.580.450-52",
+          "email": "lucas.agliardi@hotmail.com",
+          "celular": "(51) 98177-7114"
+        }
+      }
+    ]
+  }

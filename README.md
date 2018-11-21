@@ -1,4 +1,3 @@
-#vality
 Olá Tudo bem?
 
 Me chamo Lucas Agliardi, e agora vou mostrar para vocês como rodar meu teste.
